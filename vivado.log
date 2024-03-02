@@ -1,0 +1,473 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Sep  2 14:50:35 2023
+# Process ID: 3600
+# Current directory: /home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code
+# Command line: vivado
+# Log file: /home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/vivado.log
+# Journal file: /home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.xpr
+INFO: [Project 1-313] Project file moved from '/home/riad/Desktop/dhfdjdt/myProject1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 6603.891 ; gain = 171.086 ; free physical = 3074 ; free virtual = 21269
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_sim' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_3.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_0.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_12.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_22.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_16.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_18.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_13.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/sigContent.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_7.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_12.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_15.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_0.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_26.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_1.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_2.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_11.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_10.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_27.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_1.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_7.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_19.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_25.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_14.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_18.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_8.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_10.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_1.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_11.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_3_8.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_15.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_6.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_6.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_6.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_3_9.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_8.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_1.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_28.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_7.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_3_1.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_24.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_2.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_14.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_3_0.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_19.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_9.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_0.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_3_5.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_10.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_24.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_4.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_0.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_12.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_3_2.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_9.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_15.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_26.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_15.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_17.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_21.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_14.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_6.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_14.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_13.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_3_4.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_3.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_7.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_3_7.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_13.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_5.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_17.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_5.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_19.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_20.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_11.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_4.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_5.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_3.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_10.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_8.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_7.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_27.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_28.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_9.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_3.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_12.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_13.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_20.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_29.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_22.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_18.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_21.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_9.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_23.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_5.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_2_2.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_18.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_16.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_4.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_8.mif'
+INFO: [SIM-utils-43] Exported '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_2.mif'
+INFO: [Common 17-14] Message 'SIM-utils 43' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj top_sim_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Layer_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Layer_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Layer_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Sig_ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sig_ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Weight_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Weight_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/axi_lite_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/maxFinder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maxFinder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/neuron.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/relu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ReLU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/zynet.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zyNet
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/tb/top_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim'
+xelab -wto b0d5b3c210854a8198237b640c6059e7 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab -wto b0d5b3c210854a8198237b640c6059e7 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 's_axi_awaddr' [/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/tb/top_sim.v:55]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 's_axi_awprot' [/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/tb/top_sim.v:56]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 's_axi_araddr' [/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/tb/top_sim.v:66]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 's_axi_arprot' [/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/tb/top_sim.v:67]
+WARNING: [VRFC 10-3091] actual bit length 11 differs from formal bit length 10 for port 'radd' [/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/neuron.v:172]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'i_valid' [/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/zynet.v:318]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Layer_1.v" Line 1. Module Layer_1(numWeight=1024,actType="sigmoid") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Layer_2.v" Line 1. Module Layer_2(NN=20,numWeight=30,layerNum=2,actType="sigmoid") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Layer_3.v" Line 1. Module Layer_3(NN=10,numWeight=20,layerNum=3,actType="sigmoid") doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.axi_lite_wrapper_default
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.Sig_ROM
+Compiling module xil_defaultlib.neuron(layerNo=1,numWeight=1024,...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=1,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=2,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=3,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=4,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,wei...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=5,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=6,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=7,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=8,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=9,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=10,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=11,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=12,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=13,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=14,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=15,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=16,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=17,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=18,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=19,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=20,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=21,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=22,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=23,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=24,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=25,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=26,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=27,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=28,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=1024,neu...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=29,num...
+Compiling module xil_defaultlib.Layer_1(numWeight=1024,actType="...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,numWeight=30,si...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=1,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=2,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=3,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=4,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,layer...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=5,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=6,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=7,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=8,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=9,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=10,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=11,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=12,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=13,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=14,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=15,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=16,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=17,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=18,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=19,num...
+Compiling module xil_defaultlib.Layer_2(NN=20,numWeight=30,layer...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,numWeight=20,si...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=1,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=2,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=3,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=4,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,layer...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=5,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=6,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=7,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=8,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=20,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=9,numW...
+Compiling module xil_defaultlib.Layer_3(NN=10,numWeight=20,layer...
+Compiling module xil_defaultlib.maxFinder
+Compiling module xil_defaultlib.zyNet
+Compiling module xil_defaultlib.top_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_sim_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source /home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/xsim.dir/top_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Sep  2 14:52:01 2023...
+run_program: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 7560.773 ; gain = 0.000 ; free physical = 2978 ; free virtual = 21288
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_sim_behav -key {Behavioral:sim_1:Functional:top_sim} -tclbatch {top_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source top_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Configuration completed                      0 ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 7560.773 ; gain = 0.000 ; free physical = 2879 ; free virtual = 21210
+run all
+1. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+2. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+3. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+4. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+5. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+6. Accuracy: 100.000000, Detected number: 8, Expected: 0008
+7. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+8. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+9. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+10. Accuracy: 100.000000, Detected number: 6, Expected: 0006
+11. Accuracy: 100.000000, Detected number: 8, Expected: 0008
+12. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+13. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+14. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+15. Accuracy: 93.333333, Detected number: 1, Expected: 0009
+16. Accuracy: 93.750000, Detected number: 0, Expected: 0000
+17. Accuracy: 94.117647, Detected number: 1, Expected: 0001
+18. Accuracy: 94.444444, Detected number: 6, Expected: 0006
+19. Accuracy: 94.736842, Detected number: 6, Expected: 0006
+20. Accuracy: 95.000000, Detected number: 9, Expected: 0009
+21. Accuracy: 95.238095, Detected number: 8, Expected: 0008
+22. Accuracy: 95.454545, Detected number: 0, Expected: 0000
+23. Accuracy: 95.652174, Detected number: 0, Expected: 0000
+24. Accuracy: 95.833333, Detected number: 4, Expected: 0004
+25. Accuracy: 96.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 96.153846, Detected number: 7, Expected: 0007
+27. Accuracy: 96.296296, Detected number: 1, Expected: 0001
+28. Accuracy: 96.428571, Detected number: 8, Expected: 0008
+29. Accuracy: 96.551724, Detected number: 9, Expected: 0009
+30. Accuracy: 96.666667, Detected number: 6, Expected: 0006
+31. Accuracy: 96.774194, Detected number: 2, Expected: 0002
+32. Accuracy: 96.875000, Detected number: 4, Expected: 0004
+33. Accuracy: 96.969697, Detected number: 8, Expected: 0008
+34. Accuracy: 97.058824, Detected number: 3, Expected: 0003
+35. Accuracy: 97.142857, Detected number: 8, Expected: 0008
+36. Accuracy: 94.444444, Detected number: 6, Expected: 0003
+37. Accuracy: 94.594595, Detected number: 0, Expected: 0000
+38. Accuracy: 94.736842, Detected number: 1, Expected: 0001
+39. Accuracy: 94.871795, Detected number: 0, Expected: 0000
+40. Accuracy: 95.000000, Detected number: 6, Expected: 0006
+41. Accuracy: 95.121951, Detected number: 9, Expected: 0009
+42. Accuracy: 95.238095, Detected number: 1, Expected: 0001
+43. Accuracy: 95.348837, Detected number: 1, Expected: 0001
+44. Accuracy: 95.454545, Detected number: 1, Expected: 0001
+45. Accuracy: 95.555556, Detected number: 0, Expected: 0000
+46. Accuracy: 95.652174, Detected number: 4, Expected: 0004
+47. Accuracy: 95.744681, Detected number: 4, Expected: 0004
+48. Accuracy: 95.833333, Detected number: 1, Expected: 0001
+49. Accuracy: 95.918367, Detected number: 7, Expected: 0007
+50. Accuracy: 96.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 94.117647, Detected number: 5, Expected: 0003
+52. Accuracy: 94.230769, Detected number: 1, Expected: 0001
+53. Accuracy: 94.339623, Detected number: 3, Expected: 0003
+54. Accuracy: 92.592593, Detected number: 2, Expected: 0009
+55. Accuracy: 92.727273, Detected number: 5, Expected: 0005
+56. Accuracy: 92.857143, Detected number: 1, Expected: 0001
+57. Accuracy: 92.982456, Detected number: 3, Expected: 0003
+58. Accuracy: 93.103448, Detected number: 4, Expected: 0004
+59. Accuracy: 93.220339, Detected number: 7, Expected: 0007
+60. Accuracy: 93.333333, Detected number: 8, Expected: 0008
+61. Accuracy: 93.442623, Detected number: 4, Expected: 0004
+62. Accuracy: 93.548387, Detected number: 5, Expected: 0005
+63. Accuracy: 93.650794, Detected number: 4, Expected: 0004
+64. Accuracy: 93.750000, Detected number: 8, Expected: 0008
+65. Accuracy: 93.846154, Detected number: 8, Expected: 0008
+66. Accuracy: 93.939394, Detected number: 4, Expected: 0004
+67. Accuracy: 94.029851, Detected number: 6, Expected: 0006
+68. Accuracy: 94.117647, Detected number: 7, Expected: 0007
+69. Accuracy: 94.202899, Detected number: 3, Expected: 0003
+70. Accuracy: 92.857143, Detected number: 8, Expected: 0003
+71. Accuracy: 92.957746, Detected number: 9, Expected: 0009
+72. Accuracy: 93.055556, Detected number: 4, Expected: 0004
+73. Accuracy: 93.150685, Detected number: 5, Expected: 0005
+74. Accuracy: 93.243243, Detected number: 7, Expected: 0007
+75. Accuracy: 93.333333, Detected number: 1, Expected: 0001
+76. Accuracy: 93.421053, Detected number: 1, Expected: 0001
+77. Accuracy: 93.506494, Detected number: 7, Expected: 0007
+78. Accuracy: 93.589744, Detected number: 9, Expected: 0009
+79. Accuracy: 93.670886, Detected number: 8, Expected: 0008
+80. Accuracy: 93.750000, Detected number: 5, Expected: 0005
+81. Accuracy: 93.827160, Detected number: 3, Expected: 0003
+82. Accuracy: 93.902439, Detected number: 0, Expected: 0000
+83. Accuracy: 93.975904, Detected number: 9, Expected: 0009
+84. Accuracy: 94.047619, Detected number: 8, Expected: 0008
+85. Accuracy: 94.117647, Detected number: 8, Expected: 0008
+86. Accuracy: 94.186047, Detected number: 1, Expected: 0001
+87. Accuracy: 94.252874, Detected number: 4, Expected: 0004
+88. Accuracy: 94.318182, Detected number: 1, Expected: 0001
+89. Accuracy: 94.382022, Detected number: 8, Expected: 0008
+90. Accuracy: 94.444444, Detected number: 8, Expected: 0008
+91. Accuracy: 94.505495, Detected number: 5, Expected: 0005
+92. Accuracy: 94.565217, Detected number: 8, Expected: 0008
+93. Accuracy: 94.623656, Detected number: 5, Expected: 0005
+94. Accuracy: 94.680851, Detected number: 8, Expected: 0008
+95. Accuracy: 94.736842, Detected number: 6, Expected: 0006
+96. Accuracy: 93.750000, Detected number: 5, Expected: 0000
+97. Accuracy: 93.814433, Detected number: 5, Expected: 0005
+98. Accuracy: 93.877551, Detected number: 5, Expected: 0005
+99. Accuracy: 93.939394, Detected number: 2, Expected: 0002
+100. Accuracy: 94.000000, Detected number: 7, Expected: 0007
+Accuracy: 94.000000
+$stop called at time : 1113235 ns : File "/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/tb/top_sim.v" Line 340
+run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 7560.773 ; gain = 0.000 ; free physical = 2864 ; free virtual = 21200
+launch_runs synth_1 -jobs 2
+[Sat Sep  2 14:53:00 2023] Launched synth_1...
+Run output will be captured here: /home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Sat Sep  2 14:54:38 2023] Launched impl_1...
+Run output will be captured here: /home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+Netlist sorting complete. Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.10 . Memory (MB): peak = 7560.773 ; gain = 0.000 ; free physical = 2471 ; free virtual = 20935
+INFO: [Netlist 29-17] Analyzing 472 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.71 ; elapsed = 00:00:00.69 . Memory (MB): peak = 7560.773 ; gain = 0.000 ; free physical = 2376 ; free virtual = 20841
+Restored from archive | CPU: 0.720000 secs | Memory: 14.278023 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.71 ; elapsed = 00:00:00.69 . Memory (MB): peak = 7560.773 ; gain = 0.000 ; free physical = 2376 ; free virtual = 20841
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7560.773 ; gain = 0.000 ; free physical = 2376 ; free virtual = 20841
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:15 . Memory (MB): peak = 7560.773 ; gain = 0.000 ; free physical = 2226 ; free virtual = 20695
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sat Sep  2 14:57:22 2023] Launched impl_1...
+Run output will be captured here: /home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.runs/impl_1/runme.log

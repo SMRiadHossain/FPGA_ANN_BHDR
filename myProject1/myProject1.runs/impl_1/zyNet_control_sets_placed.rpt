@@ -1,0 +1,220 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+| Date         : Sat Sep  2 14:55:50 2023
+| Host         : ASUS running 64-bit Ubuntu 22.04.2 LTS
+| Command      : report_control_sets -verbose -file zyNet_control_sets_placed.rpt
+| Design       : zyNet
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   142 |
+|    Minimum number of control sets                        |   142 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   265 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   142 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |    31 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |    30 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    79 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             195 |          120 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             101 |           48 |
+| Yes          | No                    | No                     |            1101 |          197 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |            2722 |          985 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+------------------------------+------------------------------------+------------------+----------------+
+|      Clock Signal     |         Enable Signal        |          Set/Reset Signal          | Slice Load Count | Bel Load Count |
++-----------------------+------------------------------+------------------------------------+------------------+----------------+
+|  s_axi_aclk_IBUF_BUFG | alw/axi_arready0             | alw/axi_wready_i_1_n_30            |                1 |              3 |
+|  s_axi_aclk_IBUF_BUFG | alw/axi_awready0             | alw/axi_wready_i_1_n_30            |                1 |              3 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_3[0]  |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_2             | alw/controlReg_reg[0]_8[0]         |                3 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_2[0]  |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_12[0] |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_11[0] |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_10[0] |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_0[0]  |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_20    |                3 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_19    |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_18    |                3 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_17    |                3 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_16    |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_15    |                4 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_14    |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_13    |                3 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_5[0]  |                3 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_6[0]  |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_7[0]  |                3 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_8[0]  |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_9[0]  |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_2             | alw/controlReg_reg[0]_9            |                4 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_2             | alw/controlReg_reg[0]_0[0]         |                3 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_2             | alw/controlReg_reg[0]_1[0]         |                3 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_2             | alw/controlReg_reg[0]_2[0]         |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_2             | alw/controlReg_reg[0]_3[0]         |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_2             | alw/controlReg_reg[0]_4[0]         |                3 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_2             | alw/controlReg_reg[0]_5[0]         |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_2             | alw/controlReg_reg[0]_6[0]         |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_2             | alw/controlReg_reg[0]_7[0]         |                2 |              6 |
+|  s_axi_aclk_IBUF_BUFG | data_out_valid_1             | alw/controlReg_reg[0]_rep__1_4[0]  |                3 |              6 |
+|  s_axi_aclk_IBUF_BUFG |                              | alw/axi_wready_i_1_n_30            |                3 |              7 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_1        |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_10       |                5 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_11       |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_12       |                5 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_13       |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_14       |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_15       |                5 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_16       |                3 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_28       |                7 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_17       |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_18       |                5 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_19       |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_2        |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_20       |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_21       |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_23       |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/SR[0]                          |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_9        |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_8        |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_7        |                5 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_6        |                5 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_5        |                5 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_4        |                5 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_3        |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_29       |                3 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_27       |                5 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_26       |                5 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_25       |                5 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_24       |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | axis_in_data_valid_IBUF      | alw/controlReg_reg[0]_rep_22       |                4 |             11 |
+|  s_axi_aclk_IBUF_BUFG | mFind/maxValue[15]_i_1_n_30  |                                    |                2 |             16 |
+|  s_axi_aclk_IBUF_BUFG | alw/axi_rd_en_reg_0          | alw/axi_rd_en_reg_1                |                4 |             16 |
+|  s_axi_aclk_IBUF_BUFG |                              | l1/n_0/muxValid_f_reg_0            |               29 |             30 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_9      | alw/controlReg_reg[0]_rep__1_15    |               10 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_13     | alw/controlReg_reg[0]_rep__1_17    |               10 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_18     | alw/controlReg_reg[0]_rep__1_20    |               12 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_15     | alw/controlReg_reg[0]_rep__1_19    |               10 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_14     | alw/controlReg_reg[0]_rep__1_18    |               10 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_10     | alw/controlReg_reg[0]_rep__1_16    |               10 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_1      | alw/controlReg_reg[0]_rep__1_14    |                9 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_0      | alw/controlReg_reg[0]_rep__1_13    |               11 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_8      | alw/controlReg_reg[0]_rep_10       |               10 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_6      | alw/controlReg_reg[0]_rep_8        |               11 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_27     | alw/controlReg_reg[0]_rep_29       |               10 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_26     | alw/controlReg_reg[0]_rep_28       |               11 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_23     | alw/controlReg_reg[0]_rep_25       |               10 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_19     | alw/controlReg_reg[0]_rep_21       |               11 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_15     | alw/controlReg_reg[0]_rep_17       |                9 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_14     | alw/controlReg_reg[0]_rep_16       |               10 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_13     | alw/controlReg_reg[0]_rep_15       |                9 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_12     | alw/controlReg_reg[0]_rep_14       |               10 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_10     | alw/controlReg_reg[0]_rep_12       |                8 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_1      | alw/controlReg_reg[0]_rep_3        |               11 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l3/n_0/mult_valid_reg_4      | alw/controlReg_reg[0]_9            |               11 |             31 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_9[0]   | alw/controlReg_reg[0]_rep_11       |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_0[0]   | alw/controlReg_reg[0]_rep_2        |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/E[0]                  | alw/controlReg_reg[0]_rep_1        |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/p_0_in                | alw/SR[0]                          |               10 |             32 |
+|  s_axi_aclk_IBUF_BUFG | mFind/counter                | l3/n_0/o3_valid[0]                 |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | alw/weightReg                | alw/axi_wready_i_1_n_30            |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG | alw/slv_reg_rden             | alw/axi_wready_i_1_n_30            |               17 |             32 |
+|  s_axi_aclk_IBUF_BUFG | alw/neuronReg                | alw/axi_wready_i_1_n_30            |               13 |             32 |
+|  s_axi_aclk_IBUF_BUFG | alw/layerReg                 | alw/axi_wready_i_1_n_30            |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG | alw/biasReg                  | alw/axi_wready_i_1_n_30            |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l3/n_0/mult_valid_reg_3[0]   | alw/controlReg_reg[0]_4[0]         |               10 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l3/n_0/mult_valid_reg_6[0]   | alw/controlReg_reg[0]_6[0]         |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_16[0]  | alw/controlReg_reg[0]_rep_18       |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_7[0]   | alw/controlReg_reg[0]_rep_9        |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_5[0]   | alw/controlReg_reg[0]_rep_7        |               13 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_4[0]   | alw/controlReg_reg[0]_rep_6        |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_3[0]   | alw/controlReg_reg[0]_rep_5        |               13 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_25[0]  | alw/controlReg_reg[0]_rep_27       |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_24[0]  | alw/controlReg_reg[0]_rep_26       |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_22[0]  | alw/controlReg_reg[0]_rep_24       |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_21[0]  | alw/controlReg_reg[0]_rep_23       |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_2[0]   | alw/controlReg_reg[0]_rep_4        |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG |                              | alw/count_2                        |                8 |             32 |
+|  s_axi_aclk_IBUF_BUFG |                              | alw/count_1                        |                8 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l3/n_0/mult_valid_reg_8[0]   | alw/controlReg_reg[0]_8[0]         |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l3/n_0/mult_valid_reg_0[0]   | alw/controlReg_reg[0]_1[0]         |               10 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_8[0]   | alw/controlReg_reg[0]_rep__1_8[0]  |                8 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_7[0]   | alw/controlReg_reg[0]_rep__1_7[0]  |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_6[0]   | alw/controlReg_reg[0]_rep__1_6[0]  |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_5[0]   | alw/controlReg_reg[0]_rep__1_5[0]  |               10 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_4[0]   | alw/controlReg_reg[0]_rep__1_4[0]  |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_3[0]   | alw/controlReg_reg[0]_rep__1_3[0]  |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_2[0]   | alw/controlReg_reg[0]_rep__1_2[0]  |               14 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_17[0]  | alw/controlReg_reg[0]_rep__1_12[0] |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_12[0]  | alw/controlReg_reg[0]_rep__1_10[0] |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_11[0]  | alw/controlReg_reg[0]_rep__1_9[0]  |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/mult_valid_reg_16[0]  | alw/controlReg_reg[0]_rep__1_11[0] |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/p_0_in                | alw/controlReg_reg[0]_rep__1_0[0]  |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l3/n_0/p_0_in                | alw/controlReg_reg[0]_0[0]         |               13 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_11[0]  | alw/controlReg_reg[0]_rep_13       |               11 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l3/n_0/mult_valid_reg_1[0]   | alw/controlReg_reg[0]_2[0]         |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l3/n_0/mult_valid_reg_5[0]   | alw/controlReg_reg[0]_5[0]         |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l3/n_0/mult_valid_reg_7[0]   | alw/controlReg_reg[0]_7[0]         |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | mFind/E[0]                   | alw/axi_wready_i_1_n_30            |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l3/n_0/mult_valid_reg_2[0]   | alw/controlReg_reg[0]_3[0]         |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | mFind/maxValue               | l3/n_0/o3_valid[0]                 |               13 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_18[0]  | alw/controlReg_reg[0]_rep_20       |               13 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_20[0]  | alw/controlReg_reg[0]_rep_22       |               12 |             32 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/mult_valid_reg_17[0]  | alw/controlReg_reg[0]_rep_19       |               10 |             32 |
+|  s_axi_aclk_IBUF_BUFG | alw/controlReg               | alw/axi_wready_i_1_n_30            |               11 |             35 |
+|  s_axi_aclk_IBUF_BUFG | alw/axi_rd_en_reg_0          |                                    |               28 |            144 |
+|  s_axi_aclk_IBUF_BUFG | l3/n_0/o3_valid[0]           |                                    |               43 |            160 |
+|  s_axi_aclk_IBUF_BUFG |                              |                                    |              120 |            195 |
+|  s_axi_aclk_IBUF_BUFG | l2/n_0/siginst.s1/holdData_2 |                                    |               51 |            308 |
+|  s_axi_aclk_IBUF_BUFG | l1/n_0/siginst.s1/holdData_1 |                                    |               73 |            473 |
++-----------------------+------------------------------+------------------------------------+------------------+----------------+
+
+

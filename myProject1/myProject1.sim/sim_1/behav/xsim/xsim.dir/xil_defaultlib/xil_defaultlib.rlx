@@ -1,0 +1,17 @@
+0.6
+2019.2
+Nov  6 2019
+21:42:20
+/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/myProject1/myProject1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Layer_1.v,1691920990,verilog,,/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Layer_2.v,,Layer_1,,,,,,,,
+/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Layer_2.v,1691920990,verilog,,/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Layer_3.v,,Layer_2,,,,,,,,
+/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Layer_3.v,1691920990,verilog,,/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Sig_ROM.v,,Layer_3,,,,,,,,
+/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Sig_ROM.v,1691920990,verilog,,/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Weight_Memory.v,,Sig_ROM,,,,,,,,
+/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/Weight_Memory.v,1691920990,verilog,,/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/axi_lite_wrapper.v,/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/include.v,Weight_Memory,,,,,,,,
+/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/axi_lite_wrapper.v,1691920990,verilog,,/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/maxFinder.v,,axi_lite_wrapper,,,,,,,,
+/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/include.v,1691920990,verilog,,,,,,,,,,,,
+/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/maxFinder.v,1691920990,verilog,,/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/neuron.v,,maxFinder,,,,,,,,
+/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/neuron.v,1691920990,verilog,,/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/relu.v,/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/include.v,neuron,,,,,,,,
+/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/relu.v,1691920990,verilog,,/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/zynet.v,,ReLU,,,,,,,,
+/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/zynet.v,1691920990,verilog,,/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/tb/top_sim.v,/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/include.v,zyNet,,,,,,,,
+/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/tb/top_sim.v,1691921117,verilog,,,/home/riad/Desktop/Thesis_Book/1703026_1703088_Final_Code/src/fpga/rtl/include.v,top_sim,,,,,,,,
